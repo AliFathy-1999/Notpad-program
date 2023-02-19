@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Notepad.jnlp">
+    <information>
+        <title>Notepad</title>
+        <vendor>alifathy99</vendor>
+        <description>null</description>
+        <offline-allowed/>
+        <shortcut installed="true">
+            <desktop/>
+        </shortcut>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.4+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Notepad.jar" size="6949" download="eager"/>
+        <jar href="lib/fontawesomefx-8.9.jar" size="571068" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="notepadPkg.notepad" name="notepad"/>
+</jnlp>
+
